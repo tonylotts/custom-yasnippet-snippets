@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Tony Lotts <tonylotts@users.noreply.github.com>
+# name: scala
+# key: <scala
+# --
+#+NAME: $1
+#+BEGIN_SRC scala
+  $0
+#+END_SRC

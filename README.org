@@ -1,0 +1,27 @@
+My custom snippets for [[https://github.com/joaotavora/yasnippet][YASnippet]] 
+
+* org-mode
+
+*** name
+*key*: =<n=
+
+Template for a =#+NAME= directive.
+
+** source blocks
+All source block templates include a =#+NAME= directive.
+
+*** scala
+*key*: =<scala=
+
+A source block for Scala code.
+
+*** src
+*key*: =<s=
+
+Pop-up to select language from configured languages, as defined in =org-babel-load-languages=
+To use on key =<s=, remove the default Easy Template on =<s=:
+
+#+NAME: remove-source-easy-template
+#+BEGIN_SRC emacs-lisp
+  (delete '("s" "#+BEGIN_SRC ?\n\n#+END_SRC") org-structure-template-alist)
+#+END_SRC

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Tony Lotts <tonylotts@users.noreply.github.com>
+# name: name
+# key: <n
+# --
+#+NAME: $1
+$0
